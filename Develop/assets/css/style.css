@@ -3,28 +3,32 @@
     padding: 0;
     margin: 0;
 }
-
+/* controls background for the whole page except for elements specifically managed by classes */
 body {
-   /* background-color: #d9dcd6;  */
-   background-color:blue;
+   background-color: #d9dcd6;
+
 }
 
+/* controls header background and font style. does not impact "seo" of Horiseon */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-}
 
+}
+/* sets font size for "Horiseon" header title */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* REMOVE - sets font folor for "seo" portion of Horiseon at the top of the page */
+/* .header h1 .seo - not needed as .header h1 sets settings for "Horiseon" header */
+/* .header h1 .seo { 
     color: #d9dcd6;
-}
+}*/
 
+/* controls positioning for header elements */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +37,27 @@ body {
     font-size: 20px;
 }
 
+/* REMOVE - class meant to manage unordered list for links. no impact as no list style is defined */
 .header div ul {
     list-style-type: none;
 }
-
+/* controls positioning of links at the top of the page */
 .header div ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px; 
+  
 }
-
-a {
+/* controls color of links at top of the page */
+ a { 
     color: #ffffff;
     text-decoration: none;
-}
+} 
 
+/* controls body paragraph content font size */
 p {
     font-size: 16px;
 }
-
+/* adds main image at top of page and controls its size and position */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,23 +66,27 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* controls positioning of image for "Search Engine Optimizations and "Social Media Marketing"*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* controls positioning of imagae for "Online Reputation Management */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* controls alignment of elements under the class div */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
-
+/* controls positioning for div class "benefits" */
+/* can set font color here rather than repeating in subsequent classes below */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,21 +96,23 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: #ffffff;
+ 
 }
 
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .benefit-lead h3 {
@@ -134,32 +147,32 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* font colors and font style for following 3 classes can be consolidated under "content" class */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     background-color: #0072bb;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     background-color: #0072bb;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     background-color: #0072bb;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .search-engine-optimization img {
