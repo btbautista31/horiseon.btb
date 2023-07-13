@@ -41,6 +41,7 @@ body {
 .header div ul {
     list-style-type: none;
 }
+
 /* controls positioning of links at the top of the page */
 .header div ul li {
     display: inline-block;
@@ -51,6 +52,7 @@ body {
  a { 
     color: #ffffff;
     text-decoration: none;
+
 } 
 
 /* controls body paragraph content font size */
